@@ -3,7 +3,7 @@ $("#formulario").submit(function(e){
 	var cadena=$("#formulario").serializeArray();
 	console.info(cadena);
 	$.ajax({
-		url:"http://especialistasenlaweb.com/datos.php",
+		url:"http://especialistasenlaweb.com/webservice.php",
 		type:"post",
 		data:cadena
 	}).done(function(respuesta){
