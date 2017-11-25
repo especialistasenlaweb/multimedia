@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.webserver3" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>AppFADPMArio</name>
+    <description>
+        App para guardar datos en una base de datos
+    </description>
+    <author email="jorgemariorincon@hotmail.com" href="http://camaleoncreativo.com">
+        MArio Rincón
+    </author>
+    <content src="index.html" />
+    <access origin="http://especialistasenlaweb.com" />
+     <plugin name="cordova-plugin-whitelist" source="npm" />
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+
+</widget>
+
+
+ 
+
+  

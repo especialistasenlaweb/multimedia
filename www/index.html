@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Web APP Hibrida</title>
+</head>
+<body>
+	<div id="inicio" data-role="page" data-theme="b"> 
+      <div data-role="header" data-theme="b">
+         <h1>Página para móviles</h1>
+      </div> 
+      <div data-role="content" data-theme="b">
+         	<a data-role="button" href="#contacto" data-rel="dialog">contacto</a>
+      </div> 
+      <div data-position="fixed" data-role="footer" data-theme="b">
+          <div data-role="navbar">
+      <ul>
+         <li><a href="#webservice" data-icon="star">Webservice</a></li>
+         <li><a href="#jqui" data-icon="plus"> jQuery UI </a></li>
+         <li><a href="#mision" data-transition="flip" data-icon="grid"> mision</a></li>
+      </ul>
+   </div> 
+      </div> 
+   </div> 
+
+
+
+      <div data-role="page" id="contacto"> 
+      <div data-role="header">
+         <h2>contacto</h2>
+      </div> 
+      <div data-role="content">
+         	Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsa natus, vel non earum, distinctio iusto reprehenderit alias quisquam possimus, at qui nostrum ad enim totam repudiandae consectetur eius iste?
+      </div> 
+      <div data-role="footer">
+         Contacta y lo que sea...
+      </div> 
+   </div> 
+
+
+	<div id="mision" data-role="page" data-theme="b"> 
+      <div data-role="header" data-theme="b">
+         <h1>Página para móviles</h1>
+      </div> 
+      <div data-role="content" data-theme="b">
+         	<a data-role="button" href="#contacto" data-rel="dialog">contacto</a>
+      </div> 
+      <div data-position="fixed" data-role="footer" data-theme="b">
+          <div data-role="navbar">
+      <ul>
+         <li><a href="#inicio" data-icon="star">inicio</a></li>
+         <li><a href="#jqui" data-icon="plus"> jQuery UI </a></li>
+         <li><a href="#mision" data-transition="flip" data-icon="grid"> mision</a></li>
+      </ul>
+   </div> 
+      </div> 
+   </div> 
+
+   <div id="webservice" data-role="page" data-theme="b"> 
+      <div data-role="header" data-theme="b">
+         <h1>Página para móviles</h1>
+      </div> 
+      <div data-role="content" data-theme="b">
+            <form id="formulario">
+               <fieldset>
+               Nombre: <input type="text" id="nombre" name="n">
+               Correo: <input type="text" id="correo" name="c">
+               Comentario: <input type="text" id="comentario" name="com">
+               <input type="submit" value="enviar...">
+               </fieldset>
+            </form>
+            <div class="mensaje"></div>
+      </div> 
+      <div data-position="fixed" data-role="footer" data-theme="b">
+          <div data-role="navbar">
+      <ul>
+         <li><a href="#inicio" data-icon="star">inicio</a></li>
+         <li><a href="#jqui" data-icon="plus"> jQuery UI </a></li>
+         <li><a href="#mision" data-transition="flip" data-icon="grid"> mision</a></li>
+      </ul>
+   </div> 
+      </div> 
+   </div> 
+
+
+	<script src="js/jquery.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/funciones.js"></script>
+</body>
+</html>
